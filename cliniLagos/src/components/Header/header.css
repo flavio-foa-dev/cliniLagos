@@ -1,0 +1,36 @@
+.header{
+ background-color:  #333;
+ color: #fff;
+ display: flex;
+ height: 70px;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header ul li {
+  margin-right:  20px;
+  padding: 10px 10px;
+
+}
+
+.header ul li:hover {
+  background-color: #454545;
+}
+
+.header span {
+  cursor: pointer;
+  padding: 10px 10px;
+
+}
+
+.header span:hover {
+  background-color: #454545;
+}
+
+
+
+
