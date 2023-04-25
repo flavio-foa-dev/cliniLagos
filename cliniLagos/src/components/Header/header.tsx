@@ -1,6 +1,6 @@
 import "./header.css"
 import {Link} from "react-router-dom"
-import { SignIn, Stethoscope } from "@phosphor-icons/react"
+import { Stethoscope } from "@phosphor-icons/react"
 
 export default function Header() {
   return (
