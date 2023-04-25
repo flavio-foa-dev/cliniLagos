@@ -40,11 +40,13 @@
   font-weight: 900;
   font-size: 1.2em;
   line-height: 1.5;
+  color: #3671BF;
  }
 
  .text-body {
   font-size: .9em;
   padding-bottom: 10px;
+  color:#364A73
  }
 
  /*Button*/
@@ -59,11 +61,26 @@
 
  /*Hover*/
  .card-img:hover {
-  transform: translateY(-20%);
+  transform: translateY(-15%);
   box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
  }
+
+ .card:hover  {
+  transform: translateY(1%);
+
+ }
+
+
 
  .card-button:hover {
   border: 1px solid #9ABBD9;
   background-color: #9ABBD9;
  }
+
+
+ @media (max-width: 455px) {
+  .card {
+    width: 280px;
+    height: 354px;
+  }
+}

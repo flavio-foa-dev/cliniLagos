@@ -2,7 +2,7 @@
 export const medicos = [
   {
     id: 1,
-    nome: 'Maria Santos',
+    nome: 'João Silva',
     especialidade: 'Cardiologia',
     foto: 'https://media.istockphoto.com/id/1402840664/pt/foto/cardiology-consultation-treatment-of-heart-disease-doctor-cardiologist-while-consultation.jpg?b=1&s=170667a&w=0&k=20&c=kK4x6U40Zs7dY1tzbT0XudYNEro2jqCPTASs0rjNXNw=',
     telefone: '(11) 0000-0000',
@@ -10,7 +10,7 @@ export const medicos = [
   },
   {
     id: 2,
-    nome: 'João Silva',
+    nome: 'Maria Santos',
     especialidade: "Dermatologista",
     foto: 'https://media.istockphoto.com/id/1304851118/pt/foto/cosmetologist-directing-lamp-to-woman-for-facial-treatment.jpg?b=1&s=170667a&w=0&k=20&c=vSS-4wU3DQqHxbeG_3qmQLALIKNmZiHXWsNpXSvOiHs=',
     telefone: '(11) 0000-0000',
@@ -26,7 +26,7 @@ export const medicos = [
   },
   {
     id: 4,
-    nome: 'Fernanda Rodrigues',
+    nome: 'Ricardo Santos',
     especialidade: 'Ginecologia',
     foto: 'https://media.istockphoto.com/id/1394007811/pt/foto/ultrasound-exam.jpg?b=1&s=170667a&w=0&k=20&c=GcRRAuo_NFCRu9NZDk2Jo1Jfcz7gnRJchoLu7dcEA_U=',
     telefone: '(11) 0000-0000',
@@ -34,7 +34,7 @@ export const medicos = [
   },
   {
     id: 5,
-    nome: 'Ricardo Santos',
+    nome: 'Fernanda Rodrigues',
     especialidade: 'Pediatria',
     foto: 'https://media.istockphoto.com/id/1358496301/pt/foto/getting-a-bandage-after-a-vaccine.jpg?b=1&s=170667a&w=0&k=20&c=8FLbBWLQBZzGL3TUk3E2j66MFwxNPJIGHNyprWEe9Qs=',
     telefone: '(11) 0000-0000',

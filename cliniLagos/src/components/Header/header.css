@@ -1,5 +1,5 @@
 .header{
- background-color: #174FBF;
+ background-color: #3671BF;
  color: #fff;
  display: flex;
  height: 70px;
@@ -14,8 +14,6 @@
 .header ul li {
   margin-right:  20px;
   padding: 2px 3px;
-
-
 }
 
 .header ul li:hover {
@@ -24,9 +22,22 @@
 
 .header span {
   cursor: pointer;
-
 }
 
+@media (max-width: 500px) {
+  .header ul li {
+    margin-right:  8px;
+    padding: 1px 1px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .header ul li {
+    margin-right:  8px;
+    padding: 1px 1px;
+  }
+}
 
 
 
