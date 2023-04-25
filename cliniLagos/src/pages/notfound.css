@@ -1,0 +1,50 @@
+.not-found-container {
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#364A73;
+}
+
+.not-found-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.not-found__title {
+  font-size: 6em;
+  font-weight: bold;
+  color: #3671BF;
+  margin-bottom: 20px;
+}
+
+.not-found__subtitle {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.not-found__paragrafo {
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn-back {
+  display: inline-block;
+  background-color: #3671BF;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+
+}
+
+.btn-back:hover {
+  background-color: #3671BF;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
