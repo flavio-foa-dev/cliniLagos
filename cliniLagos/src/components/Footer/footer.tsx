@@ -11,7 +11,7 @@ export default function Footer() {
         <span>Telefone: (21) 2121-2121</span>
         </div>
         <nav className="social flex gap-3 h-full">
-          <FacebookLogo className="h-full" size={30}/>
+          <FacebookLogo className="h-full" size={50}/>
           <InstagramLogo />
           <WhatsappLogo />
         </nav>
