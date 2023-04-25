@@ -16,7 +16,7 @@ export default function Footer() {
           <WhatsappLogo />
         </nav>
         <div className="copy">
-          &copy; 2023 Minha Empresa. Todos os direitos reservados.
+          &copy; 2023 Clinica Lagos. Todos os direitos reservados.
         </div>
       </div>
     </footer>
