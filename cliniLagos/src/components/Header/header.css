@@ -11,12 +11,12 @@
   display: flex;
 }
 
-.header ul li {
-  margin-right:  20px;
+.link{
+  text-transform: uppercase;
   padding: 2px 3px;
 }
 
-.header ul li:hover {
+.link:hover {
   border-bottom: 2px solid #fff;
 }
 
