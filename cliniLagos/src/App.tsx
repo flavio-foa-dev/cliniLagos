@@ -1,7 +1,7 @@
 import './App.css'
-import Cards from './components/Cards/Cards'
 import Header from './components/Header/header'
 import Hero from './components/Hero/Hero'
+import ListCard from './components/ListCard/listCard'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header/>
       <Hero/>
-      <Cards/>
+      <ListCard/>
     </>
   )
 }

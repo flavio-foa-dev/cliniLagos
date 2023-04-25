@@ -24,13 +24,10 @@
 
 .header span {
   cursor: pointer;
-  padding: 0 2px;
-}
-
-.header span:hover {
-  border-bottom: 2px solid #fff;
 
 }
+
+
 
 
 
