@@ -25,19 +25,14 @@
 }
 
 @media (max-width: 500px) {
-  .header ul li {
-    margin-right:  8px;
-    padding: 1px 1px;
+  .header{
+    flex-direction: column;
+    padding:  3rem 0;
+    gap: 1rem 0
   }
 }
 
 
-@media (max-width: 600px) {
-  .header ul li {
-    margin-right:  8px;
-    padding: 1px 1px;
-  }
-}
 
 
 

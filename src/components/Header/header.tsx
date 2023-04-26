@@ -1,8 +1,9 @@
 import "./header.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Stethoscope } from "@phosphor-icons/react";
 
 export default function Header() {
+  const location = useLocation();
   return (
     <div className="header">
       <Link to="/">
@@ -14,8 +15,9 @@ export default function Header() {
       </Link>
       <nav className="flex gap-5  ">
         <Link to="/" className="link">Home</Link>
-        <Link to="/agendamento" className="link">Agendamento</Link>
-        <Link to="/sobre" className="link">Sobre nós</Link>
+        {location.pathname === '/' &&
+        (<a className="link" href="#listCard">Agendar</a>)}
+        <Link to="/sobre" className="link">Sobre</Link>
         <a className="link"href="#contato">Contato</a>
       </nav>
     </div>
