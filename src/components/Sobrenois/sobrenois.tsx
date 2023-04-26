@@ -11,7 +11,7 @@ export default function Sobrenois() {
         <img src="https://media.istockphoto.com/id/1402115192/pt/foto/man-having-chiropractic-back-adjustment.jpg?b=1&s=170667a&w=0&k=20&c=u04-uTFCCYbzL5ZIBbG-cs0h2a-kxO0Iuf_8jHF0EvU=" alt="Sobre Nós" className="img-fluid"/>
       </div>
       <div className="col-md-6">
-        <p className="section-text">Aqui na Clínica XYZ, nossa missão é oferecer aos nossos pacientes o melhor atendimento médico possível, com base na ética, na qualidade e na humanização do cuidado.</p>
+        <p className="section-text">Aqui na Clínica Lagos, nossa missão é oferecer aos nossos pacientes o melhor atendimento médico possível, com base na ética, na qualidade e na humanização do cuidado.</p>
         <p className="section-text">Nossa visão é ser reconhecidos como referência em saúde e bem-estar, oferecendo serviços integrados e inovadores que promovam a qualidade de vida de nossos pacientes.</p>
         <h3 className="section-subtitle">Nossos Valores</h3>
         <ul className="section-list">

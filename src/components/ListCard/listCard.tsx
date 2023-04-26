@@ -3,7 +3,7 @@ import Cards from '../Cards/Cards'
 
 export default function ListCard() {
   return (
-    <div className="flex flex-wrap gap-4 justify-center pt-2">
+    <div className="flex flex-wrap gap-4 justify-center pt-2" id="listCard">
       {medicos.map((medicos) =>{
         return <Cards
           key={medicos.id}
