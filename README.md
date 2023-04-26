@@ -8,7 +8,7 @@ Para rodar o projeto localmente, você precisará ter o Node.js instalado em sua
 
 1. Clone este repositório
 2. Na pasta raiz do projeto, execute o comando `npm install` ou `yarn install` para instalar as dependências
-3. Execute o comando `npm start` ou `yarn start` para iniciar a aplicação
+3. Execute o comando `npm run dev` ou `yarn start` para iniciar a aplicação
 
 ## Funcionalidades
 
